@@ -1,0 +1,9 @@
+clarifai
+clarifai-grpc
+sentence-transformers
+sentence-transformers
+uvicorn
+ctransformers
+fastapi
+folium
+geopy
