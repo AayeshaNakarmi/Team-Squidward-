@@ -7,3 +7,10 @@ ctransformers
 fastapi
 folium
 geopy
+functions
+matplotlib
+nltk
+pandas
+recommendation
+feedback
+langchain

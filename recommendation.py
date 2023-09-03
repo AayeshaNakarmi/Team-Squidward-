@@ -1,9 +1,8 @@
-import functions
 from langchain.llms import Clarifai
 import streamlit as st
 import streamlit as st
 import matplotlib.pyplot as plt
-import functions
+
 
 from constants import (
     transportation_emission_factors,
