@@ -217,22 +217,22 @@ def show_results():
     country_average = emission_data[emission_data["Country Name"] == user_country]["2020"].values[0]
 
     
-    st.write(f"Your estimated carbon footprint: {st.session_state.total_emissions} kg CO2")
-
-
-    difference = st.session_state.total_emissions - country_average
-    if difference > 0:
-        st.write(f"Your footprint is {difference:.2f} kg CO2 higher than the average.")
-    elif difference < 0:
-        st.write(f"Your footprint is {-difference:.2f} kg CO2 lower than the average.")
-    else:
-        st.write("Your footprint is exactly equal to the average.")
+    st.write(f"Your estimated carbon footprint: {st.session_state.total_emissions} metric ton CO2")
 
     if pd.notna(country_average):
         # country_average = country_average[0]
-        st.write(f"{user_country}'s average carbon footprint: {country_average:.2f} kg CO2")
+        st.write(f"{user_country}'s average carbon footprint: {country_average:.2f} metric ton CO2")
     else:
         st.write(f"Average data not available for {user_country}.")
+        
+
+    difference = st.session_state.total_emissions - country_average
+    if difference > 0:
+        st.write(f"Your footprint is {difference:.2f} metric ton CO2 higher than the average.")
+    elif difference < 0:
+        st.write(f"Your footprint is {-difference:.2f} metric ton CO2 lower than the average.")
+    else:
+        st.write("Your footprint is exactly equal to the average.")
 
     
 
@@ -343,6 +343,6 @@ def visualization():
     # Display the calculated emissions for each sector to the user
     st.subheader("Carbon Emissions by Sector")
     for sector, emission in emissions.items():
-        st.write(f"{sector}: {emission:.2f} kg CO2e")
+        st.write(f"{sector}: {emission:.2f} metric ton CO2e")
 
 

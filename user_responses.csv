@@ -1,6 +1,58 @@
 Question,Response
 Transportation Mode,Two-wheeler
 Transportation Frequency,Daily
+Transportation Mode,Two-wheeler
+Transportation Frequency,Daily
+Transportation Mode,Two-wheeler
+Transportation Frequency,Daily
+Transportation Mode,Two-wheeler
+Transportation Frequency,Daily
+Transportation Mode,Public Transport
+Transportation Frequency,Daily
+Electricity Consumption,Less than average
+Electricity Consumption,Average
+Meat Consumption,Rarely or Never
+Meat Consumption,Regularly
+Fast Fashion,Yes
+Sustainability Check,False
+Price Check,False
+Brand Check,False
+Material Quality Check,False
+Style Check,False
+Purchase Frequency,Rarely or Never
+Fast Fashion,No
+Sustainability Check,False
+Price Check,False
+Brand Check,False
+Material Quality Check,False
+Style Check,False
+Purchase Frequency,Rarely or Never
+Fast Fashion,No
+Sustainability Check,True
+Price Check,False
+Brand Check,False
+Material Quality Check,False
+Style Check,False
+Purchase Frequency,Rarely or Never
+Fast Fashion,No
+Sustainability Check,True
+Price Check,True
+Brand Check,False
+Material Quality Check,False
+Style Check,False
+Purchase Frequency,Rarely or Never
+Heating Source,Electricity
+Heating Usage,Low
+Appliances Usage,Low
+Heating Source,Electricity
+Heating Usage,Moderate
+Appliances Usage,Low
+Heating Source,Electricity
+Heating Usage,Moderate
+Appliances Usage,Moderate
+Total Emissions,1.72
+Transportation Mode,Two-wheeler
+Transportation Frequency,Daily
 Electricity Consumption,Less than average
 Meat Consumption,Rarely or Never
 Fast Fashion,Yes
@@ -13,4 +65,5 @@ Purchase Frequency,Rarely or Never
 Heating Source,Electricity
 Heating Usage,Low
 Appliances Usage,Low
+Total Emissions,1.72
 Total Emissions,1.72

@@ -2,3 +2,5 @@ experience_rating,enjoyment_rating,satisfaction_rating,changes_requested,expecte
 1,1,1,,,I hate it,"{'neg': 0.787, 'neu': 0.213, 'pos': 0.0, 'compound': -0.5719}",Negative
 experience_rating,enjoyment_rating,satisfaction_rating,changes_requested,expected_questions,feedback_text,sentiment_scores,sentiment_label
 1,1,1,,,no,"{'neg': 1.0, 'neu': 0.0, 'pos': 0.0, 'compound': -0.296}",Negative
+Awareness,Concern,Actions Taken,Willingness to Improve,Reason for motivation,Other Reasons,Barriers,Suggestion,Feedback
+Somewhat aware,Somewhat concerned,"['Reducing energy consumption (e.g., turning off lights, adjusting thermostat)']",3,"['Cost savings', 'Personal health']",,,,I like it

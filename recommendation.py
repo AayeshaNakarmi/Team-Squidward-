@@ -12,9 +12,7 @@ from constants import (
 )
 
 def recommendation():
-    st.header("Recommendation")
-
-        
+    st.header("Recommendation")        
 
     ######################################################################################################
     # In this section, we set the user authentication, user and app ID, model details, and the URL of 
@@ -87,7 +85,7 @@ def recommendation():
     heating source: {heating_source},
     heating usage: {heating_usage},
     electrical appliance usage: {appliances_usage}
-    calculate the carbon emission in metric ton based on these data. it doesn't have to be perfectly accurate but create an estimate. Also tell how much it is more or less than the {country}'s average co2 per capita. Write it as "Your total carbon emission is". 
+    calculate the carbon emission in kg based on these data. it doesn't have to be perfectly accurate but create an estimate. Also tell how much it is more or less than the {country}'s average co2 per capita. Write it as "Your total carbon emission is". 
     also give me ideas on how to reduce my carbon footprint.
     """
 
